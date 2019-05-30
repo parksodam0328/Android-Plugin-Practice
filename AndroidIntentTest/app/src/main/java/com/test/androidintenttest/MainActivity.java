@@ -13,7 +13,6 @@ public class MainActivity extends UnityPlayerActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
         Intent intent = getIntent();
         if(!intent.getAction().equals("com.test.unityplugin.action"))
         {
